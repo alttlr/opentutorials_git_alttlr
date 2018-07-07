@@ -33,9 +33,21 @@ div{
 	padding : 5px;
 }
 
+.content{
+	margin : 5px;
+	padding 1px 5px;
+	min-height : 600px;
+}
+
+.content > article{
+	width : 100%;
+	height 200px;
+	text-align : left;
+}
+
 .large_img{
-	width : 500px;
-	height : 500px;
+	width : 600px;
+	height : 600px;
 }
 
 .btn{
