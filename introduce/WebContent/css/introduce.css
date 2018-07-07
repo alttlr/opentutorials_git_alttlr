@@ -68,3 +68,23 @@ div{
 	width : 100px;
 	height : 100px;
 }
+
+.small_img{
+	width : 200px;
+	height : 200px;
+	border : 5px solid red;
+}
+
+.img{
+	overflow : hidden;
+	font-size : 15px;
+}
+
+.img > div{
+	float : left;
+}
+
+.explanation{
+	text-align : left;
+	line-height : 1.4em;
+}
