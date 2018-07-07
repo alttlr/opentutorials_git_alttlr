@@ -1,4 +1,62 @@
 html, body{
 	background-color : green;
 	text-align : center;
+	height : 100%;
+}
+
+section, header, footer{
+	background-color : white;
+	margin : 5px;
+	padding : 5px;
+}
+
+ul.nav{
+	list-style-type : none;
+	float : right;
+}
+
+ul.nav > li{
+	float : left;
+}
+
+nav{
+	overflow : hidden;
+}
+
+p{
+	margin : 0;
+	padding : 0;
+}
+
+div{
+	margin : 5px;
+	padding : 5px;
+}
+
+.large_img{
+	width : 500px;
+	height : 500px;
+}
+
+.btn{
+	font-size : 15px;
+	margin : 4px;
+	padding : 4px;
+	display : inline-box;
+	bolder : 1px;
+	text-align : center;
+	text-decoration : none;
+	background-color : blue;
+	color : white;
+	box-shadow : 4px 4px 2px grey;	
+	cursor : point;
+}
+
+.nav_btn{
+	width : 100px;
+}
+
+.content_btn{
+	width : 100px;
+	height : 100px;
 }
